@@ -1,0 +1,39 @@
+{
+  "name": "@simsustech/simple-site-generator-app",
+  "version": "1.2.0",
+  "type": "module",
+  "description": "Base app for simple site generator",
+  "scripts": {
+    "build": "pnpm exec vitrify build -m ssg",
+    "dev": "pnpm exec vitrify dev"
+  },
+  "author": "simsustech",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@fastify/static": "^6.4.0",
+    "@quasar/extras": "^1.14.2",
+    "@quasar/quasar-ui-qmarkdown": "2.0.0-beta.7",
+    "@simsustech/simple-site-generator-templates": "^0.2.2",
+    "@stefanvh/quasar-ui-qmediaplayer": "2.0.0-beta.5",
+    "fastify": "^4.2.0",
+    "fastify-plugin": "^3.0.1",
+    "quasar": "^2.7.5",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-yaml": "^3.1.0",
+    "critters": "^0.0.16",
+    "js-yaml": "^4.1.0",
+    "typescript": "^4.7.4",
+    "vite": "^2.9.13",
+    "vitrify": "^0.6.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simsustech/simple-site-generator-app.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
